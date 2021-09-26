@@ -1,0 +1,248 @@
+*{
+  margin :0;
+  padding : 0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+#navbar{
+  display :flex;
+  align-items : center;
+  text-decoration: none;
+  margin-left: 10px;
+  position : sticky;
+}
+header{
+  display:flex ;
+
+  }
+#navbar li a{
+  text-decoration : none;
+  margin :4px 20px;
+  padding :4px;
+  color : white;
+  display : block;
+
+}
+
+#navbar li a:hover{
+  text-decoration : none;
+  margin :4px;
+  padding :4px;
+  color : black;
+  background-color : white;
+  display : block;
+  border-radius : 20px;
+
+
+}
+
+#navbar li{
+  list-style : none;
+  color : red;
+
+}
+img{
+  height : 50px;
+}
+
+header::before{
+  content: "";
+  height : 8%;
+  width : 100%;
+  background-color: black;
+  position:absolute;
+  z-index : -1;
+  opacity :0.5;
+}
+
+
+#home::before{
+  content: "";
+  position: absolute;
+  /* right : 60px; */
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  /* opacity: 0.7;
+
+
+  /* background-color: black; */
+  background: url('pexels-engin-akyurt-1435895.jpg') center center/cover ;
+  margin-bottom: 100px;
+  filter: blur(3px);
+  /* -webkit-filter: blur(8px); */
+
+
+}
+
+#home{
+  text-align : center;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  font-family: 'Baloo Bhai 2';
+  /* padding : 3px ; */
+  height : 400px;
+  width: 100%;
+}
+
+#home
+{
+
+
+  justify-content : center;
+  text-align : center;
+
+}
+
+.h-primary{
+  font-size:3.8rem;
+  padding: 12px;
+}
+
+#home h1{
+  color : Black;
+  text-align : center;
+}
+
+#home p{
+  color : black;
+  text-align : center;
+  font-size: 1.5rem;
+}
+
+.btn{
+  padding : 6px 20px;
+  background-color : brown;
+  border : 2px solid white;
+  border-radius : 20px;
+  color: white;
+  font-size :1.5rem;
+  cursor : pointer;
+width: 20%;
+display : block;
+margin : auto;
+
+}
+
+
+#services{
+display : flex;
+
+
+}
+
+.h-primary{
+text-align : center;
+}
+
+#services-container{
+  margin-top: 100px;
+}
+
+.box img{
+  width : 160 px;
+  display :block;
+margin:auto;
+}
+
+
+
+
+.box{
+background-color: rbg(0,0,0);
+border : 2px solid yellow;
+border-radius: 10px;
+width : 33% ;
+margin : 10px;
+padding : 20px;
+text-align : center;
+}
+
+
+/* client section */
+
+
+#clients{
+  display : flex;
+  justify-content : center;
+  text-align : center;
+
+
+}
+
+#clients img{
+  height : 115px;
+  padding : 50px;
+}
+
+#client-section{
+  /* height : 344px; */
+  padding-bottom: 90px;
+}
+
+#client-section::before{
+  content: "";
+  height : 40%;
+  width : 100%;
+  background: url(pexels-engin-akyurt-1435895.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  z-index : -1;
+  filter: blur(3px);
+
+
+}
+
+.services-container{
+  margin-top : 100px;
+}
+
+footer{
+  color: white;
+  background-color: black;
+  padding : 9px 20px;
+  text-align : center;
+}
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(4px);
+
+    opacity: 0.3;
+    background: url('contact-us-2993000_1920.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
